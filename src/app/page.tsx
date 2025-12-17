@@ -178,7 +178,7 @@ function HomeContent() {
         </section>
 
         {/* 2. CUENTA REGRESIVA */}
-        <section className="relative mb-12 overflow-hidden rounded-3xl bg-gradient-to-br from-green-600 via-green-700 to-emerald-700 p-8 shadow-2xl shadow-green-600/50 ring-4 ring-amber-400 sm:mb-20 sm:rounded-[2rem] sm:p-10 lg:mb-24 lg:p-16 xl:p-20">
+        <section className="relative mb-16 overflow-hidden rounded-3xl bg-gradient-to-br from-green-600 via-green-700 to-emerald-700 p-10 shadow-2xl shadow-green-600/50 ring-4 ring-amber-400 transition-all duration-300 hover:shadow-3xl sm:mb-24 sm:rounded-[2rem] sm:p-12 lg:mb-28 lg:p-20 xl:p-24">
           {/* Brillos decorativos */}
           <div className="pointer-events-none absolute right-4 top-4 h-40 w-40 rounded-full bg-gradient-to-bl from-amber-400/40 to-transparent blur-3xl" />
           <div className="pointer-events-none absolute bottom-4 left-4 h-40 w-40 rounded-full bg-gradient-to-tr from-red-500/40 to-transparent blur-3xl" />
@@ -252,14 +252,14 @@ function HomeContent() {
                 href={googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 rounded-2xl bg-white px-8 py-4 text-lg font-black text-amber-700 shadow-lg transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-amber-50 focus:outline-none focus:ring-4 focus:ring-white/50 active:scale-95 sm:px-10 sm:py-5 sm:text-xl lg:text-2xl"
+                className="group inline-flex items-center gap-3 rounded-2xl bg-white px-10 py-5 text-lg font-black text-amber-700 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:bg-amber-50 focus:outline-none focus:ring-4 focus:ring-white/50 active:scale-95 sm:px-12 sm:py-6 sm:text-xl lg:text-2xl"
               >
-                <span className="text-2xl sm:text-3xl">🗺️</span>
+                <span className="text-2xl transition-transform duration-300 group-hover:rotate-12 sm:text-3xl">🗺️</span>
                 Abrir en Google Maps
               </a>
             </div>
 
-            <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-rose-600 to-pink-700 p-10 shadow-xl shadow-rose-600/40 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-rose-600/50 focus-within:ring-4 focus-within:ring-rose-300 sm:rounded-[2rem] sm:p-12 lg:p-14">
+            <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-rose-600 to-pink-700 p-12 shadow-xl shadow-rose-600/40 transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-rose-600/60 focus-within:ring-4 focus-within:ring-rose-300 sm:rounded-[2rem] sm:p-14 lg:p-16">
               <p className="relative mb-5 text-7xl transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6 sm:mb-6 sm:text-8xl lg:mb-7 lg:text-9xl">🎁</p>
               <p className="relative mb-3 text-base font-bold uppercase tracking-wider text-rose-100 sm:mb-4 sm:text-lg lg:text-xl">
                 Dinámica

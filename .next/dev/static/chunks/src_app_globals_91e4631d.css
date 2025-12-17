@@ -933,10 +933,6 @@
     gap: calc(var(--spacing) * 5);
   }
 
-  .gap-6 {
-    gap: calc(var(--spacing) * 6);
-  }
-
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
@@ -1591,20 +1587,12 @@
     padding-block: calc(var(--spacing) * 3.5);
   }
 
-  .py-4 {
-    padding-block: calc(var(--spacing) * 4);
-  }
-
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
   }
 
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
-  }
-
-  .py-8 {
-    padding-block: calc(var(--spacing) * 8);
   }
 
   .py-12 {
@@ -2228,6 +2216,12 @@
   }
 
   @media (hover: hover) {
+    .group-hover\:rotate-12:is(:where(.group):hover *) {
+      rotate: 12deg;
+    }
+  }
+
+  @media (hover: hover) {
     .group-hover\:opacity-100:is(:where(.group):hover *) {
       opacity: 1;
     }
@@ -2482,13 +2476,13 @@
   }
 
   @media (hover: hover) {
-    .hover\:shadow-rose-600\/50:hover {
-      --tw-shadow-color: #e7004480;
+    .hover\:shadow-rose-600\/60:hover {
+      --tw-shadow-color: #e7004499;
     }
 
     @supports (color: color-mix(in lab, red, red)) {
-      .hover\:shadow-rose-600\/50:hover {
-        --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-rose-600) 50%, transparent) var(--tw-shadow-alpha), transparent);
+      .hover\:shadow-rose-600\/60:hover {
+        --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-rose-600) 60%, transparent) var(--tw-shadow-alpha), transparent);
       }
     }
   }
@@ -2496,18 +2490,6 @@
   @media (hover: hover) {
     .hover\:ring-red-300:hover {
       --tw-ring-color: var(--color-red-300);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:ring-white\/20:hover {
-      --tw-ring-color: #fff3;
-    }
-
-    @supports (color: color-mix(in lab, red, red)) {
-      .hover\:ring-white\/20:hover {
-        --tw-ring-color: color-mix(in oklab, var(--color-white) 20%, transparent);
-      }
     }
   }
 
@@ -2712,12 +2694,6 @@
   }
 
   @media (min-width: 40rem) {
-    .sm\:mb-20 {
-      margin-bottom: calc(var(--spacing) * 20);
-    }
-  }
-
-  @media (min-width: 40rem) {
     .sm\:mb-24 {
       margin-bottom: calc(var(--spacing) * 24);
     }
@@ -2834,12 +2810,6 @@
   @media (min-width: 40rem) {
     .sm\:gap-6 {
       gap: calc(var(--spacing) * 6);
-    }
-  }
-
-  @media (min-width: 40rem) {
-    .sm\:gap-8 {
-      gap: calc(var(--spacing) * 8);
     }
   }
 
@@ -2962,12 +2932,6 @@
   }
 
   @media (min-width: 40rem) {
-    .sm\:py-5 {
-      padding-block: calc(var(--spacing) * 5);
-    }
-  }
-
-  @media (min-width: 40rem) {
     .sm\:py-6 {
       padding-block: calc(var(--spacing) * 6);
     }
@@ -2982,12 +2946,6 @@
   @media (min-width: 40rem) {
     .sm\:py-8 {
       padding-block: calc(var(--spacing) * 8);
-    }
-  }
-
-  @media (min-width: 40rem) {
-    .sm\:py-12 {
-      padding-block: calc(var(--spacing) * 12);
     }
   }
 
@@ -3212,20 +3170,8 @@
   }
 
   @media (min-width: 64rem) {
-    .lg\:mb-16 {
-      margin-bottom: calc(var(--spacing) * 16);
-    }
-  }
-
-  @media (min-width: 64rem) {
     .lg\:mb-20 {
       margin-bottom: calc(var(--spacing) * 20);
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:mb-24 {
-      margin-bottom: calc(var(--spacing) * 24);
     }
   }
 
@@ -3350,12 +3296,6 @@
   }
 
   @media (min-width: 64rem) {
-    .lg\:gap-10 {
-      gap: calc(var(--spacing) * 10);
-    }
-  }
-
-  @media (min-width: 64rem) {
     .lg\:gap-12 {
       gap: calc(var(--spacing) * 12);
     }
@@ -3386,12 +3326,6 @@
   @media (min-width: 64rem) {
     .lg\:p-6 {
       padding: calc(var(--spacing) * 6);
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:p-8 {
-      padding: calc(var(--spacing) * 8);
     }
   }
 
@@ -3458,12 +3392,6 @@
   @media (min-width: 64rem) {
     .lg\:py-7 {
       padding-block: calc(var(--spacing) * 7);
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:py-16 {
-      padding-block: calc(var(--spacing) * 16);
     }
   }
 
@@ -3569,12 +3497,6 @@
   }
 
   @media (min-width: 80rem) {
-    .xl\:p-16 {
-      padding: calc(var(--spacing) * 16);
-    }
-  }
-
-  @media (min-width: 80rem) {
     .xl\:p-20 {
       padding: calc(var(--spacing) * 20);
     }
@@ -3633,6 +3555,10 @@
       font-size: 10rem;
     }
   }
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 :root {

@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
+* {
+  scroll-behavior: smooth;
+}
+
 :root {
   --christmas-forest: #1d351d;
   --christmas-pine: #325632;

@@ -1228,7 +1228,7 @@ function HomeContent() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "relative mb-12 overflow-hidden rounded-3xl bg-gradient-to-br from-green-600 via-green-700 to-emerald-700 p-8 shadow-2xl shadow-green-600/50 ring-4 ring-amber-400 sm:mb-20 sm:rounded-[2rem] sm:p-10 lg:mb-24 lg:p-16 xl:p-20",
+                        className: "relative mb-16 overflow-hidden rounded-3xl bg-gradient-to-br from-green-600 via-green-700 to-emerald-700 p-10 shadow-2xl shadow-green-600/50 ring-4 ring-amber-400 transition-all duration-300 hover:shadow-3xl sm:mb-24 sm:rounded-[2rem] sm:p-12 lg:mb-28 lg:p-20 xl:p-24",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "pointer-events-none absolute right-4 top-4 h-40 w-40 rounded-full bg-gradient-to-bl from-amber-400/40 to-transparent blur-3xl"
@@ -1510,10 +1510,10 @@ function HomeContent() {
                                                 href: googleMapsUrl,
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
-                                                className: "inline-flex items-center gap-3 rounded-2xl bg-white px-8 py-4 text-lg font-black text-amber-700 shadow-lg transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-amber-50 focus:outline-none focus:ring-4 focus:ring-white/50 active:scale-95 sm:px-10 sm:py-5 sm:text-xl lg:text-2xl",
+                                                className: "group inline-flex items-center gap-3 rounded-2xl bg-white px-10 py-5 text-lg font-black text-amber-700 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:bg-amber-50 focus:outline-none focus:ring-4 focus:ring-white/50 active:scale-95 sm:px-12 sm:py-6 sm:text-xl lg:text-2xl",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-2xl sm:text-3xl",
+                                                        className: "text-2xl transition-transform duration-300 group-hover:rotate-12 sm:text-3xl",
                                                         children: "🗺️"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/page.tsx",
@@ -1534,7 +1534,7 @@ function HomeContent() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "group relative overflow-hidden rounded-3xl bg-gradient-to-br from-rose-600 to-pink-700 p-10 shadow-xl shadow-rose-600/40 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-rose-600/50 focus-within:ring-4 focus-within:ring-rose-300 sm:rounded-[2rem] sm:p-12 lg:p-14",
+                                        className: "group relative overflow-hidden rounded-3xl bg-gradient-to-br from-rose-600 to-pink-700 p-12 shadow-xl shadow-rose-600/40 transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-rose-600/60 focus-within:ring-4 focus-within:ring-rose-300 sm:rounded-[2rem] sm:p-14 lg:p-16",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "relative mb-5 text-7xl transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6 sm:mb-6 sm:text-8xl lg:mb-7 lg:text-9xl",
