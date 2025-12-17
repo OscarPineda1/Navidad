@@ -91,24 +91,24 @@ export function Roulette() {
         <button
           onClick={spin}
           disabled={spinning}
-          className="group relative mx-auto flex w-full max-w-md items-center justify-center gap-3 overflow-hidden rounded-[2rem] bg-green-700 px-10 py-6 text-2xl font-black text-white shadow-2xl ring-4 ring-amber-400 transition-all duration-300 hover:scale-105 hover:bg-green-600 focus:outline-none focus:ring-4 focus:ring-amber-500 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:scale-100 sm:w-auto sm:px-14 sm:py-8 sm:text-3xl lg:text-4xl"
+          className="group relative mx-auto flex w-full max-w-md items-center justify-center gap-4 overflow-hidden rounded-[2rem] bg-gradient-to-br from-green-700 to-emerald-800 px-12 py-7 text-2xl font-black text-white shadow-2xl shadow-green-700/50 ring-4 ring-amber-400 transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-green-700/70 hover:from-green-600 hover:to-emerald-700 focus:outline-none focus:ring-4 focus:ring-amber-500 active:scale-95 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:scale-100 sm:w-auto sm:px-16 sm:py-9 sm:text-3xl lg:text-4xl"
         >
-          <span className="relative text-4xl">{spinning ? "🎰" : "🎯"}</span>
+          <span className="relative text-4xl transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110">{spinning ? "🎰" : "🎯"}</span>
           <span className="relative">{spinning ? "Girando..." : "Girar la ruleta"}</span>
         </button>
       )}
 
       {/* Resultado mejorado */}
       {result && !spinning && (
-        <div className="relative overflow-hidden rounded-[2rem] bg-red-700 p-10 shadow-2xl ring-4 ring-amber-400 animate-[bounceIn_0.6s_ease-out] sm:rounded-[3rem] sm:p-14 lg:p-20">
+        <div className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-red-700 to-rose-800 p-12 shadow-3xl shadow-red-700/50 ring-4 ring-amber-400 animate-[bounceIn_0.6s_ease-out] sm:rounded-[3rem] sm:p-16 lg:p-24">
           {/* Decoraciones navideñas */}
           <div className="pointer-events-none absolute inset-0">
-            <div className="absolute left-[10%] top-[10%] text-4xl animate-bounce">🎄</div>
-            <div className="absolute right-[15%] top-[15%] text-3xl animate-pulse delay-100">⭐</div>
-            <div className="absolute left-[20%] bottom-[20%] text-4xl animate-bounce delay-200">🎁</div>
-            <div className="absolute right-[20%] bottom-[15%] text-3xl animate-pulse">🔔</div>
-            <div className="absolute left-[50%] top-[5%] text-3xl animate-bounce">❄️</div>
-            <div className="absolute right-[30%] bottom-[10%] text-3xl animate-pulse delay-100">🎅</div>
+            <div className="absolute left-[10%] top-[10%] text-5xl animate-bounce">🎄</div>
+            <div className="absolute right-[15%] top-[15%] text-4xl animate-pulse delay-100">⭐</div>
+            <div className="absolute left-[20%] bottom-[20%] text-5xl animate-bounce delay-200">🎁</div>
+            <div className="absolute right-[20%] bottom-[15%] text-4xl animate-pulse">🔔</div>
+            <div className="absolute left-[50%] top-[5%] text-4xl animate-bounce">❄️</div>
+            <div className="absolute right-[50%] bottom-[5%] text-4xl animate-bounce delay-100">🎅</div>
           </div>
 
           <div className="relative">
@@ -138,9 +138,9 @@ export function Roulette() {
             
             <button
               onClick={spin}
-              className="rounded-2xl bg-green-600 px-10 py-5 text-xl font-black text-white shadow-xl ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-white sm:rounded-3xl sm:px-12 sm:py-6 sm:text-2xl lg:text-3xl"
+              className="group rounded-3xl bg-gradient-to-br from-green-600 to-emerald-700 px-12 py-6 text-xl font-black text-white shadow-2xl shadow-green-600/50 ring-2 ring-white transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-green-600/70 hover:from-green-500 hover:to-emerald-600 focus:outline-none focus:ring-4 focus:ring-white active:scale-95 sm:rounded-[2rem] sm:px-14 sm:py-7 sm:text-2xl lg:text-3xl"
             >
-              🔄 Volver a girar
+              <span className="inline-block transition-transform duration-300 group-hover:rotate-180">🔄</span> Volver a girar
             </button>
           </div>
         </div>

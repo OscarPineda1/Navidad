@@ -61,10 +61,10 @@ function Countdown({ targetDate }) {
     ]);
     if (timeLeft.isToday) {
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "rounded-3xl bg-gradient-to-br from-rose-600 to-red-700 p-10 text-center shadow-2xl ring-2 ring-red-300 sm:p-14 lg:p-16",
+            className: "rounded-3xl bg-gradient-to-br from-rose-600 to-red-700 p-12 text-center shadow-3xl shadow-red-600/50 ring-4 ring-amber-400 transition-all duration-300 hover:shadow-[0_0_60px_rgba(239,68,68,0.8)] sm:p-16 lg:p-20",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mb-5 text-7xl sm:text-8xl lg:text-9xl",
+                    className: "mb-6 text-8xl animate-bounce sm:text-9xl lg:text-[10rem]",
                     children: "🎉"
                 }, void 0, false, {
                     fileName: "[project]/src/app/countdown.tsx",
@@ -72,7 +72,7 @@ function Countdown({ targetDate }) {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-4xl font-black text-white sm:text-5xl lg:text-7xl xl:text-8xl",
+                    className: "text-4xl font-black text-white drop-shadow-2xl sm:text-5xl lg:text-7xl xl:text-8xl",
                     children: "¡Hoy es el día!"
                 }, void 0, false, {
                     fileName: "[project]/src/app/countdown.tsx",
@@ -80,7 +80,7 @@ function Countdown({ targetDate }) {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "mt-4 text-2xl font-bold text-red-100 sm:text-3xl lg:text-4xl",
+                    className: "mt-5 text-2xl font-bold text-red-100 sm:text-3xl lg:text-4xl",
                     children: "Nos vemos esta noche 🎄"
                 }, void 0, false, {
                     fileName: "[project]/src/app/countdown.tsx",
@@ -95,13 +95,13 @@ function Countdown({ targetDate }) {
         }, this);
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-5 lg:gap-7",
+        className: "grid grid-cols-2 gap-5 sm:grid-cols-4 sm:gap-6 lg:gap-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "group relative overflow-hidden rounded-2xl bg-gradient-to-br from-red-600 to-rose-700 p-6 shadow-lg ring-1 ring-white/20 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:ring-white/30 sm:rounded-3xl sm:p-7 lg:p-9",
+                className: "group relative overflow-hidden rounded-3xl bg-gradient-to-br from-red-600 to-rose-700 p-8 shadow-xl shadow-red-600/30 ring-2 ring-white/30 transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-red-600/50 hover:ring-white/50 sm:p-9 lg:p-11",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute -top-4 -right-4 text-4xl opacity-60 transition group-hover:scale-110 sm:text-5xl lg:text-6xl",
+                        className: "absolute -top-4 -right-4 text-5xl opacity-60 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12 sm:text-6xl lg:text-7xl",
                         children: "🎁"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -109,14 +109,14 @@ function Countdown({ targetDate }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition group-hover:opacity-100"
+                        className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
                         lineNumber: 56,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "relative text-5xl font-black text-white drop-shadow-lg sm:text-6xl lg:text-7xl xl:text-8xl",
+                        className: "relative text-5xl font-black text-white drop-shadow-2xl sm:text-6xl lg:text-7xl xl:text-8xl",
                         children: timeLeft.days
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -124,7 +124,7 @@ function Countdown({ targetDate }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "relative mt-2 text-sm font-bold uppercase tracking-wider text-red-100 sm:mt-3 sm:text-base lg:text-lg",
+                        className: "relative mt-3 text-sm font-bold uppercase tracking-wider text-red-100 sm:mt-4 sm:text-base lg:text-lg",
                         children: "Días"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -138,10 +138,10 @@ function Countdown({ targetDate }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "group relative overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-600 to-green-700 p-6 shadow-lg ring-1 ring-white/20 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:ring-white/30 sm:rounded-3xl sm:p-7 lg:p-9",
+                className: "group relative overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-600 to-green-700 p-8 shadow-xl shadow-emerald-600/30 ring-2 ring-white/30 transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-emerald-600/50 hover:ring-white/50 sm:p-9 lg:p-11",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute -top-4 -right-4 text-4xl opacity-60 transition group-hover:scale-110 sm:text-5xl lg:text-6xl",
+                        className: "absolute -top-4 -right-4 text-5xl opacity-60 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12 sm:text-6xl lg:text-7xl",
                         children: "⭐"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -149,14 +149,14 @@ function Countdown({ targetDate }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition group-hover:opacity-100"
+                        className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
                         lineNumber: 67,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "relative text-5xl font-black text-white drop-shadow-lg sm:text-6xl lg:text-7xl xl:text-8xl",
+                        className: "relative text-5xl font-black text-white drop-shadow-2xl sm:text-6xl lg:text-7xl xl:text-8xl",
                         children: timeLeft.hours
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -164,7 +164,7 @@ function Countdown({ targetDate }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "relative mt-2 text-sm font-bold uppercase tracking-wider text-emerald-100 sm:mt-3 sm:text-base lg:text-lg",
+                        className: "relative mt-3 text-sm font-bold uppercase tracking-wider text-emerald-100 sm:mt-4 sm:text-base lg:text-lg",
                         children: "Horas"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -178,10 +178,10 @@ function Countdown({ targetDate }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "group relative overflow-hidden rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 p-6 shadow-lg ring-1 ring-white/20 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:ring-white/30 sm:rounded-3xl sm:p-7 lg:p-9",
+                className: "group relative overflow-hidden rounded-3xl bg-gradient-to-br from-amber-500 to-orange-600 p-8 shadow-xl shadow-amber-500/30 ring-2 ring-white/30 transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-amber-500/50 hover:ring-white/50 sm:p-9 lg:p-11",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute -top-4 -right-4 text-4xl opacity-60 transition group-hover:scale-110 sm:text-5xl lg:text-6xl",
+                        className: "absolute -top-4 -right-4 text-5xl opacity-60 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12 sm:text-6xl lg:text-7xl",
                         children: "🔔"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -189,14 +189,14 @@ function Countdown({ targetDate }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition group-hover:opacity-100"
+                        className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
                         lineNumber: 78,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "relative text-5xl font-black text-white drop-shadow-lg sm:text-6xl lg:text-7xl xl:text-8xl",
+                        className: "relative text-5xl font-black text-white drop-shadow-2xl sm:text-6xl lg:text-7xl xl:text-8xl",
                         children: timeLeft.minutes
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -204,7 +204,7 @@ function Countdown({ targetDate }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "relative mt-2 text-sm font-bold uppercase tracking-wider text-amber-100 sm:mt-3 sm:text-base lg:text-lg",
+                        className: "relative mt-3 text-sm font-bold uppercase tracking-wider text-amber-100 sm:mt-4 sm:text-base lg:text-lg",
                         children: "Min"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -218,10 +218,10 @@ function Countdown({ targetDate }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "group relative overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-700 to-green-800 p-6 shadow-lg ring-1 ring-white/20 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:ring-white/30 sm:rounded-3xl sm:p-7 lg:p-9",
+                className: "group relative overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-700 to-green-800 p-8 shadow-xl shadow-emerald-700/30 ring-2 ring-white/30 transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-emerald-700/50 hover:ring-white/50 sm:p-9 lg:p-11",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute -top-4 -right-4 text-4xl opacity-60 transition group-hover:scale-110 sm:text-5xl lg:text-6xl",
+                        className: "absolute -top-4 -right-4 text-5xl opacity-60 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12 sm:text-6xl lg:text-7xl",
                         children: "✨"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -229,14 +229,14 @@ function Countdown({ targetDate }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition group-hover:opacity-100"
+                        className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
                         lineNumber: 89,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "relative text-5xl font-black text-white drop-shadow-lg sm:text-6xl lg:text-7xl xl:text-8xl",
+                        className: "relative text-5xl font-black text-white drop-shadow-2xl sm:text-6xl lg:text-7xl xl:text-8xl",
                         children: timeLeft.seconds
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -244,7 +244,7 @@ function Countdown({ targetDate }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "relative mt-2 text-sm font-bold uppercase tracking-wider text-emerald-100 sm:mt-3 sm:text-base lg:text-lg",
+                        className: "relative mt-3 text-sm font-bold uppercase tracking-wider text-emerald-100 sm:mt-4 sm:text-base lg:text-lg",
                         children: "Seg"
                     }, void 0, false, {
                         fileName: "[project]/src/app/countdown.tsx",
@@ -483,10 +483,10 @@ function Roulette() {
             !result && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                 onClick: spin,
                 disabled: spinning,
-                className: "group relative mx-auto flex w-full max-w-md items-center justify-center gap-3 overflow-hidden rounded-[2rem] bg-green-700 px-10 py-6 text-2xl font-black text-white shadow-2xl ring-4 ring-amber-400 transition-all duration-300 hover:scale-105 hover:bg-green-600 focus:outline-none focus:ring-4 focus:ring-amber-500 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:scale-100 sm:w-auto sm:px-14 sm:py-8 sm:text-3xl lg:text-4xl",
+                className: "group relative mx-auto flex w-full max-w-md items-center justify-center gap-4 overflow-hidden rounded-[2rem] bg-gradient-to-br from-green-700 to-emerald-800 px-12 py-7 text-2xl font-black text-white shadow-2xl shadow-green-700/50 ring-4 ring-amber-400 transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-green-700/70 hover:from-green-600 hover:to-emerald-700 focus:outline-none focus:ring-4 focus:ring-amber-500 active:scale-95 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:scale-100 sm:w-auto sm:px-16 sm:py-9 sm:text-3xl lg:text-4xl",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "relative text-4xl",
+                        className: "relative text-4xl transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110",
                         children: spinning ? "🎰" : "🎯"
                     }, void 0, false, {
                         fileName: "[project]/src/app/roulette.tsx",
@@ -508,13 +508,13 @@ function Roulette() {
                 columnNumber: 9
             }, this),
             result && !spinning && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative overflow-hidden rounded-[2rem] bg-red-700 p-10 shadow-2xl ring-4 ring-amber-400 animate-[bounceIn_0.6s_ease-out] sm:rounded-[3rem] sm:p-14 lg:p-20",
+                className: "relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-red-700 to-rose-800 p-12 shadow-3xl shadow-red-700/50 ring-4 ring-amber-400 animate-[bounceIn_0.6s_ease-out] sm:rounded-[3rem] sm:p-16 lg:p-24",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "pointer-events-none absolute inset-0",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute left-[10%] top-[10%] text-4xl animate-bounce",
+                                className: "absolute left-[10%] top-[10%] text-5xl animate-bounce",
                                 children: "🎄"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/roulette.tsx",
@@ -522,7 +522,7 @@ function Roulette() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute right-[15%] top-[15%] text-3xl animate-pulse delay-100",
+                                className: "absolute right-[15%] top-[15%] text-4xl animate-pulse delay-100",
                                 children: "⭐"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/roulette.tsx",
@@ -530,7 +530,7 @@ function Roulette() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute left-[20%] bottom-[20%] text-4xl animate-bounce delay-200",
+                                className: "absolute left-[20%] bottom-[20%] text-5xl animate-bounce delay-200",
                                 children: "🎁"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/roulette.tsx",
@@ -538,7 +538,7 @@ function Roulette() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute right-[20%] bottom-[15%] text-3xl animate-pulse",
+                                className: "absolute right-[20%] bottom-[15%] text-4xl animate-pulse",
                                 children: "🔔"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/roulette.tsx",
@@ -546,7 +546,7 @@ function Roulette() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute left-[50%] top-[5%] text-3xl animate-bounce",
+                                className: "absolute left-[50%] top-[5%] text-4xl animate-bounce",
                                 children: "❄️"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/roulette.tsx",
@@ -554,7 +554,7 @@ function Roulette() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute right-[30%] bottom-[10%] text-3xl animate-pulse delay-100",
+                                className: "absolute right-[50%] bottom-[5%] text-4xl animate-bounce delay-100",
                                 children: "🎅"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/roulette.tsx",
@@ -654,9 +654,19 @@ function Roulette() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: spin,
-                                className: "rounded-2xl bg-green-600 px-10 py-5 text-xl font-black text-white shadow-xl ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-white sm:rounded-3xl sm:px-12 sm:py-6 sm:text-2xl lg:text-3xl",
-                                children: "🔄 Volver a girar"
-                            }, void 0, false, {
+                                className: "group rounded-3xl bg-gradient-to-br from-green-600 to-emerald-700 px-12 py-6 text-xl font-black text-white shadow-2xl shadow-green-600/50 ring-2 ring-white transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-green-600/70 hover:from-green-500 hover:to-emerald-600 focus:outline-none focus:ring-4 focus:ring-white active:scale-95 sm:rounded-[2rem] sm:px-14 sm:py-7 sm:text-2xl lg:text-3xl",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "inline-block transition-transform duration-300 group-hover:rotate-180",
+                                        children: "🔄"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/roulette.tsx",
+                                        lineNumber: 143,
+                                        columnNumber: 15
+                                    }, this),
+                                    " Volver a girar"
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/app/roulette.tsx",
                                 lineNumber: 139,
                                 columnNumber: 13
@@ -1867,15 +1877,25 @@ function HomeContent() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mx-auto flex max-w-4xl flex-col gap-4 sm:flex-row sm:justify-center sm:gap-5 lg:gap-6",
+                                className: "mx-auto flex max-w-4xl flex-col gap-5 sm:flex-row sm:justify-center sm:gap-6 lg:gap-7",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: whatsappLink,
                                         target: "_blank",
                                         rel: "noopener noreferrer",
-                                        className: "rounded-2xl bg-emerald-600 px-8 py-5 text-lg font-black text-white shadow-xl ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-emerald-500 focus:outline-none focus:ring-4 focus:ring-white sm:px-10 sm:py-6 sm:text-xl lg:px-12 lg:py-7 lg:text-2xl",
-                                        children: "✅ Confirmar por WhatsApp"
-                                    }, void 0, false, {
+                                        className: "group rounded-2xl bg-gradient-to-br from-emerald-600 to-green-700 px-10 py-6 text-lg font-black text-white shadow-2xl shadow-emerald-600/50 ring-2 ring-white transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-emerald-600/70 hover:from-emerald-500 hover:to-green-600 focus:outline-none focus:ring-4 focus:ring-white active:scale-95 sm:px-12 sm:py-7 sm:text-xl lg:px-14 lg:py-8 lg:text-2xl",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "inline-block transition-transform duration-300 group-hover:rotate-12",
+                                                children: "✅"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/page.tsx",
+                                                lineNumber: 343,
+                                                columnNumber: 15
+                                            }, this),
+                                            " Confirmar por WhatsApp"
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 337,
                                         columnNumber: 13
@@ -1884,9 +1904,19 @@ function HomeContent() {
                                         href: googleMapsUrl,
                                         target: "_blank",
                                         rel: "noopener noreferrer",
-                                        className: "rounded-2xl bg-red-600 px-8 py-5 text-lg font-black text-white shadow-xl ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-white sm:px-10 sm:py-6 sm:text-xl lg:px-12 lg:py-7 lg:text-2xl",
-                                        children: "📍 Ver ubicación"
-                                    }, void 0, false, {
+                                        className: "group rounded-2xl bg-gradient-to-br from-red-600 to-rose-700 px-10 py-6 text-lg font-black text-white shadow-2xl shadow-red-600/50 ring-2 ring-white transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-red-600/70 hover:from-red-500 hover:to-rose-600 focus:outline-none focus:ring-4 focus:ring-white active:scale-95 sm:px-12 sm:py-7 sm:text-xl lg:px-14 lg:py-8 lg:text-2xl",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "inline-block transition-transform duration-300 group-hover:rotate-12",
+                                                children: "📍"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/page.tsx",
+                                                lineNumber: 351,
+                                                columnNumber: 15
+                                            }, this),
+                                            " Ver ubicación"
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 345,
                                         columnNumber: 13
@@ -1895,9 +1925,19 @@ function HomeContent() {
                                         href: calendarLink,
                                         target: "_blank",
                                         rel: "noopener noreferrer",
-                                        className: "rounded-2xl bg-amber-500 px-8 py-5 text-lg font-black text-white shadow-xl ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-amber-600 focus:outline-none focus:ring-4 focus:ring-white sm:px-10 sm:py-6 sm:text-xl lg:px-12 lg:py-7 lg:text-2xl",
-                                        children: "📅 Agregar a calendario"
-                                    }, void 0, false, {
+                                        className: "group rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 px-10 py-6 text-lg font-black text-white shadow-2xl shadow-amber-500/50 ring-2 ring-white transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-amber-500/70 hover:from-amber-400 hover:to-orange-500 focus:outline-none focus:ring-4 focus:ring-white active:scale-95 sm:px-12 sm:py-7 sm:text-xl lg:px-14 lg:py-8 lg:text-2xl",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "inline-block transition-transform duration-300 group-hover:rotate-12",
+                                                children: "📅"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/page.tsx",
+                                                lineNumber: 359,
+                                                columnNumber: 15
+                                            }, this),
+                                            " Agregar a calendario"
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 353,
                                         columnNumber: 13

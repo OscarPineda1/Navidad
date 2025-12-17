@@ -333,30 +333,30 @@ function HomeContent() {
           <p className="mb-10 text-lg font-bold text-white sm:mb-12 sm:text-xl lg:mb-14 lg:text-3xl xl:text-4xl">
             Confirma para saber cuánta comida preparar 😄
           </p>
-          <div className="mx-auto flex max-w-4xl flex-col gap-4 sm:flex-row sm:justify-center sm:gap-5 lg:gap-6">
+          <div className="mx-auto flex max-w-4xl flex-col gap-5 sm:flex-row sm:justify-center sm:gap-6 lg:gap-7">
             <a
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-2xl bg-emerald-600 px-8 py-5 text-lg font-black text-white shadow-xl ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-emerald-500 focus:outline-none focus:ring-4 focus:ring-white sm:px-10 sm:py-6 sm:text-xl lg:px-12 lg:py-7 lg:text-2xl"
+              className="group rounded-2xl bg-gradient-to-br from-emerald-600 to-green-700 px-10 py-6 text-lg font-black text-white shadow-2xl shadow-emerald-600/50 ring-2 ring-white transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-emerald-600/70 hover:from-emerald-500 hover:to-green-600 focus:outline-none focus:ring-4 focus:ring-white active:scale-95 sm:px-12 sm:py-7 sm:text-xl lg:px-14 lg:py-8 lg:text-2xl"
             >
-              ✅ Confirmar por WhatsApp
+              <span className="inline-block transition-transform duration-300 group-hover:rotate-12">✅</span> Confirmar por WhatsApp
             </a>
             <a
               href={googleMapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-2xl bg-red-600 px-8 py-5 text-lg font-black text-white shadow-xl ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-white sm:px-10 sm:py-6 sm:text-xl lg:px-12 lg:py-7 lg:text-2xl"
+              className="group rounded-2xl bg-gradient-to-br from-red-600 to-rose-700 px-10 py-6 text-lg font-black text-white shadow-2xl shadow-red-600/50 ring-2 ring-white transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-red-600/70 hover:from-red-500 hover:to-rose-600 focus:outline-none focus:ring-4 focus:ring-white active:scale-95 sm:px-12 sm:py-7 sm:text-xl lg:px-14 lg:py-8 lg:text-2xl"
             >
-              📍 Ver ubicación
+              <span className="inline-block transition-transform duration-300 group-hover:rotate-12">📍</span> Ver ubicación
             </a>
             <a
               href={calendarLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-2xl bg-amber-500 px-8 py-5 text-lg font-black text-white shadow-xl ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-amber-600 focus:outline-none focus:ring-4 focus:ring-white sm:px-10 sm:py-6 sm:text-xl lg:px-12 lg:py-7 lg:text-2xl"
+              className="group rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 px-10 py-6 text-lg font-black text-white shadow-2xl shadow-amber-500/50 ring-2 ring-white transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-amber-500/70 hover:from-amber-400 hover:to-orange-500 focus:outline-none focus:ring-4 focus:ring-white active:scale-95 sm:px-12 sm:py-7 sm:text-xl lg:px-14 lg:py-8 lg:text-2xl"
             >
-              📅 Agregar a calendario
+              <span className="inline-block transition-transform duration-300 group-hover:rotate-12">📅</span> Agregar a calendario
             </a>
           </div>
         </section>
