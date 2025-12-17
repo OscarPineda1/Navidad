@@ -11,8 +11,8 @@ function HomeContent() {
   const direccion = "Casa de la Familia Pineda Flores";
   const eventDate = new Date("2025-12-21T18:00:00");
 
-  const whatsappNumber = "6462034756";
-  const mensaje = encodeURIComponent("¡Hola! Confirmo mi asistencia a la cena navideña 🎄");
+  const whatsappNumber = "51931375082";
+  const mensaje = encodeURIComponent("Hola Oscar, ¡Confirmo mi asistencia a la cena navideña 🎄!");
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${mensaje}`;
 
   const googleMapsUrl = "https://maps.app.goo.gl/dLpb8bDUSg6XPohh9";
