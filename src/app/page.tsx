@@ -24,7 +24,8 @@ function HomeContent() {
   const [showPrizeModal, setShowPrizeModal] = useState(false);
   const [timer, setTimer] = useState<NodeJS.Timeout | null>(null);
 
-  const handleEasterEggClick = () => {
+  const handleEasterEggClick = (e: React.MouseEvent | React.TouchEvent) => {
+    e.preventDefault();
     if (timer) clearTimeout(timer);
 
     const newCount = clickCount + 1;
@@ -402,8 +403,10 @@ function HomeContent() {
           <div className="mt-6 sm:mt-8">
             <button
               onClick={handleEasterEggClick}
-              className="group inline-block cursor-default opacity-50 transition-all duration-300 hover:opacity-80 focus:outline-none"
+              onTouchEnd={handleEasterEggClick}
+              className="group inline-block cursor-pointer touch-manipulation opacity-50 transition-all duration-300 hover:opacity-80 focus:outline-none active:opacity-100"
               aria-label="Decoración"
+              style={{ WebkitTapHighlightColor: 'transparent' }}
             >
               <span className="inline-block text-3xl transition-transform group-hover:scale-125 group-active:scale-95 sm:text-4xl">
                 ⭐

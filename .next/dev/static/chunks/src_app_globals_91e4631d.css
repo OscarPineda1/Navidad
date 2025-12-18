@@ -891,6 +891,14 @@
     cursor: default;
   }
 
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .touch-manipulation {
+    touch-action: manipulation;
+  }
+
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -2758,6 +2766,10 @@
     --tw-scale-y: 95%;
     --tw-scale-z: 95%;
     scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+
+  .active\:opacity-100:active {
+    opacity: 1;
   }
 
   .disabled\:cursor-not-allowed:disabled {
